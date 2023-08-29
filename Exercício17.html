@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>
+    </title>
+    </head>
+    <body>
+        <script lang="JavaScript">
+            var n1, multi;
+            do{
+            n1 = parseFloat(window.prompt("Insira o 1° valor (Positivo):"));
+            } while (n1<0)
+document.write("Esta é a Tabuada do " + n1);
+document.write("<br>")
+multi=1;
+do {
+    document.write(n1 + " x " + multi +" = " + n1*multi );
+    document.write("<br>")
+    multi++
+} while (multi<=10)
+
+</script>
+    </body>
+    </html>
